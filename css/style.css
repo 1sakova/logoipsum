@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(25, 25, 27, 1);
+}
+p {
+  color: rgba(105, 104, 113, 1);
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.container {
+  width: 85%;
+  margin-inline: auto;
+}
+#header {
+  padding-block: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+nav a {
+  color: rgba(105, 104, 113, 1);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header button {
+  width: 200px;
+  height: 50px;
+  background: rgba(255, 113, 67, 1);
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero img {
+  max-width: 550px;
+  width: 100%;
+}
+.hero-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-top h1 {
+  font-size: 50px;
+  width: 380px;
+  line-height: 50px;
+}
+.hero-top p {
+  width: 380px;
+  line-height: 27px;
+  font-size: 16px;
+}
+.hero-btn_arrow {
+  display: flex;
+  gap: 40px;
+}
+.hero-btn_arrow button {
+  width: 200px;
+  height: 50px;
+  background: rgba(84, 84, 212, 1);
+}
+.box-arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(231, 231, 231, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-arrow ion-icon {
+  font-size: 30px;
+}
+.hero-logo {
+  padding-block: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-text h1 {
+  font-size: 45px;
+}
+.info-text p {
+  width: 340px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.info-text a {
+  font-weight: 600;
+  color: rgba(84, 84, 212, 1);
+  font-size: 16px;
+}
+#work {
+  padding-block: 130px;
+}
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work .box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+.work .box h1 {
+  font-size: 24px;
+}
+.work .box p {
+  font-size: 16px;
+  line-height: 27px;
+}
+.plan-top {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan-top h1 {
+  font-size: 42px;
+  width: 390px;
+}
+.plan-btn {
+  padding: 8px;
+  background: rgba(247, 247, 251, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 55px;
+  border-radius: 10px;
+}
+.plan-btn button {
+  width: 150px;
+  height: 55px;
+  background: rgba(84, 84, 212, 1);
+}
+.plan-btn p {
+  width: 100px;
+  font-weight: 600;
+  color: #000;
+}
+#plan {
+  padding-block: 50px;
+}
+.plan {
+  display: flex;
+  justify-content: space-between;
+}
+.plan .box {
+  border-radius: 10px;
+  padding: 40px 30px;
+  width: 275px;
+  background: rgba(248, 248, 248, 1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  transition: 1s;
+}
+.plan .box:hover {
+  width: 280px;
+
+  transform: scale (1.1);
+  background: rgba(255, 113, 67, 1);
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: rgba(255, 255, 255, 1);
+  }
+  button {
+    color: #fff;
+    background: rgba(159, 57, 25, 1);
+  }
+}
+.plan .price {
+  line-height: 45px;
+  font-size: 16px;
+}
+.plan .box h1 {
+  font-size: 42px;
+}
+.plan .box button {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  color: rgba(84, 84, 212, 1);
+  width: 270px;
+  height: 55px;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
